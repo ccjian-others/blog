@@ -1,0 +1,149 @@
+@media screen and (min-width: 1800px){
+    .layui-container {
+        width: 1600px;
+    }
+}
+
+body {
+    text-align: center;
+}
+
+
+
+
+/*头部内容*/
+header {
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.menu-top{
+    background-color: #63BA79;
+}
+
+.menu-main{
+    background-color: #79C48C;
+}
+
+
+
+
+
+
+
+
+
+/*中间内容*/
+main {
+}
+
+.main{
+    height: 800px;
+}
+
+
+.blog-header{
+    height: 100%;
+    background-color: #79C48C;
+}
+
+.blog-main{
+    height: 100%;
+    padding-right: 10px;
+}
+
+.blog-side{
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+.blog-main-body {
+    height: 100%;
+    /*background-color: #63BA79;*/
+}
+
+/*轮播图*/
+.blog-main-body-carousel{
+    margin-bottom: 0.5rem;
+}
+
+/*文章 fade-in动画*/
+.fade-in {
+    -webkit-animation: 0.5s fade-in;
+    animation: 0.5s fade-in;
+}
+
+
+/*文章*/
+article{
+    background-color: #63BA79;
+}
+.article {
+    height: 160px;
+    text-align: left;
+    margin: 0 20px 0 20px;
+}
+/*文章头部*/
+.article-header h2{
+    background-color: #93D1FF;
+}
+
+.article-header h2 a {
+    color: #555 !important;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+/*文章内容*/
+article {
+    position: relative;
+}
+
+.article-content-main {
+    margin: 5px 0 0 2px;
+    background-color: #555555;
+}
+.article-meta{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.article-more{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+
+
+
+/*右边工具栏*/
+.blog-side-body {
+    height: 100%;
+    background-color: #79C48C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+footer {
+    height: 120px;
+    padding-top: 20px;
+}
+
+.blog-footer{
+    height: 100%;
+    background-color: #79C48C;
+}

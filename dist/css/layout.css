@@ -4,28 +4,50 @@
     }
 }
 
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
 }
 
 
-
-
-/*头部内容*/
+/*顶部内容*/
 header {
     height: 100px;
     padding-bottom: 20px;
 }
 
-.menu-top{
-    background-color: #63BA79;
-}
-
-.menu-main{
+.blog-header{
+    height: 30px;
     background-color: #79C48C;
 }
 
+/*顶部菜单*/
+.menu-top{
+    position: relative;
+    background-color: #63BA79;
+    text-align: left;
+    margin: 0 100px 0 100px;
+}
 
+.menu-top-tips{
+    left: 0;
+    position: absolute;
+}
+
+.menu-top-nav{
+    right: 0;
+    position: absolute;
+}
+
+
+.menu-main{
+    background-color: #00F7DE;
+}
 
 
 
@@ -39,12 +61,6 @@ main {
 
 .main{
     height: 800px;
-}
-
-
-.blog-header{
-    height: 100%;
-    background-color: #79C48C;
 }
 
 .blog-main{
@@ -137,7 +153,7 @@ article {
 
 
 
-/*底部*/
+/*底部内容*/
 footer {
     height: 120px;
     padding-top: 20px;
